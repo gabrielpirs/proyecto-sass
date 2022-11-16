@@ -733,6 +733,7 @@ input, textarea {
   }
   .contenedor-formu {
     width: 100%;
+    margin-bottom: 3rem;
   }
   .contenedor-mapa {
     display: flex;
