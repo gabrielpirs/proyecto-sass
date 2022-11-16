@@ -1,0 +1,15 @@
+
+
+@mixin anclas {
+    text-decoration: none;
+    color: $clr_blanco;
+}
+
+@mixin list {
+    list-style: none;
+}
+
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
