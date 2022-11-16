@@ -396,6 +396,17 @@ input, textarea {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 468px) {
+    .subtitulo {
+        font-size: 1.25rem;
+        font-family: $ff-sec;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 2rem;
+    }
+}
+
 .birra_info {
     display: flex;
     flex-direction: column;
@@ -616,7 +627,7 @@ input, textarea {
         background-repeat: no-repeat;
         background-size: cover;
         clip-path: polygon(0% 0 , 100% 0, 100% 100%, 0% 100%);
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
 }
